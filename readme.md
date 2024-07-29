@@ -27,7 +27,7 @@ or do both steps at once with:
 
     git checkout -b your-branch-name
 
-#### 5. make your changes
+#### 5. make your changes ----
 
 *If this section feels too intimidating for your first contribution, that's okay! Feel free to make a simpler change by adding a cat emoji to this readme, and skip the rest of this section.*
 
