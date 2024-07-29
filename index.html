@@ -4,10 +4,12 @@
     </head>
     <body>
 
+
         <div class="header">
             <h1>Look at all these cats!</h1>
         </div>
-
+        <!-- Align this button to the center of the page-->
+        <button id="Nightmode" onclick="nightmode()" style="justify-self : center;">Nap time for cats...</button>
 
         <div class="catpic">
             <a href="http://pixabay.com/p-289591/?no_redirect"><img src="images/sleepingcat.jpg" title="by Ebowalker, public domain" alt="A cat hugs a toy kitten"></a>
@@ -43,4 +45,22 @@
         </div>
 
     </body>
+    <script type="text/javascript">
+        function nightmode() {
+            var body = document.body;
+            if (body.style.background == "black") {
+                body.style.background = "white";
+                body.style.color = "black";
+                document.getElementById("Nightmode").innerHTML = "Nap time for cats...";
+                document.getElementById("Nightmode").style.color = "black";
+            } else {
+                body.style.background = "black";
+                body.style.color = "white";
+                document.getElementById("Nightmode").innerHTML = "Nap time for cats...";
+                document.getElementById("Nightmode").innerHTML = "WAAKE UP KITTY!";
+                document.getElementById("Nightmode").style.color = "white";
+            }
+
+        }
+    </script>
 </html>
