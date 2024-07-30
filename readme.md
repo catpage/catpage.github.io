@@ -27,10 +27,10 @@ or do both steps at once with:
 
     git checkout -b your-branch-name
 
-#### 5. make your changes
+#### 5. make your changes ----
 
 *If this section feels too intimidating for your first contribution, that's okay! Feel free to make a simpler change by adding a cat emoji to this readme, and skip the rest of this section.*
-
+made a change here
 Find a cat image. If you want to save a local copy of the image, put it in the `images` directory and give it a human readable name.
 
 Then, in `index.html` add the following code somewhere amidst the other cat images:
